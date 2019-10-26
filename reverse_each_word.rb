@@ -2,12 +2,11 @@ sentence = ()
 
 
 def reverse_each_word(sentence)
-  nuarray = []
   nuarray = sentence.split(" ")
-  return nuarray
-  nuarray.each  do |word|
-    nuarray << #{word.reverse}
+    testarray = []
+  nuarray.collect  do |word|
+    testarray << #{word.reverse}
     end
-#return elements()
+testarray.join
 end
-end
+
