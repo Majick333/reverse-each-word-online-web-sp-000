@@ -9,4 +9,3 @@ def reverse_each_word(sentence)
     nuarray << #{word.reverse}
     end
 #return elements()
-end
