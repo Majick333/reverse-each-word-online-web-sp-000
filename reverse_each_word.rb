@@ -7,5 +7,5 @@ def reverse_each_word(sentence)
   nuarray.collect  do|word|
     test_array << word.reverse
     end
-test_array.join
+test_array.join(" ")
 end
